@@ -7,7 +7,7 @@ const mongoose = require('mongoose'); // MongoDB object modeling tool
 const jwt = require('jsonwebtoken'); // JSON Web Token library for authentication
 const cors = require('cors'); // Middleware to enable Cross-Origin Resource Sharing
 const bcrypt = require('bcryptjs'); // Library to hash passwords
-import { ToastContainer, toast } from 'react-toastify';
+
 
 // Initialize the Express app
 const app = express();
